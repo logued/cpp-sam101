@@ -4,7 +4,7 @@
 
 // function declaration (or function prototype)
 int add(int, int);  // a function must be declared before it is called.
-
+// Notice that the declaration above does not have a body. The function definition provides the body (code)
 
 int main() {
     std::cout << "sam101 - calling add function from main()" << std::endl;
