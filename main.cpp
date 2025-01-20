@@ -1,24 +1,27 @@
-// sam101
+// sam101               // Jan 2025
 
 #include <iostream> // Input-Output Stream library
 
 // function declaration (or function prototype)
 int add(int, int);  // a function must be declared before it is called.
-// Notice that the declaration above does not have a body. The function definition provides the body (code)
+// Notice that the declaration above does not have a body.
+// The function definition (below) provides the body (code)
 
 // All C++ programs must have a main() function.
-// This is the first functioncalled and is where execution begins.
+// This is the first function called and is where execution begins.
 //
 int main() {
-    // cout - is the Console OUtput object - representing the screen
+    // cout - is the Console OUTput object - representing the screen
     std::cout << "sam101 - calling add function from main()" << std::endl;
+
     int sum = add(2,2);
+
     std::cout <<  "Sum of values = " << sum << std::endl;
     return 0;
 }
 
 // function definition
-int add( int x, int y) {    // two int parameters, returns int
+int add( int x, int y ) {    // two int parameters, returns int
     return x + y;
 }
 
